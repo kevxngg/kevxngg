@@ -1,5 +1,5 @@
 <h1 align="center">Kevin Hernández</h1>
-<p align="center"><b> </b> · <code>kevxngg</code></p>
+<p align="center"><b> </b><code>kevxngg</code></p>
 
 <p align="center">Desarrollador Android, web (PHP) y Python, con enfoque en ciberseguridad y herramientas OSINT.</p>
 
