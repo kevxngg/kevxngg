@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="200" viewBox="0 0 880 200" role="img" aria-labelledby="t">
+  <title id="t">Kevin Hernández: apps Android con root, audio y herramientas OSINT</title>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; }
+    .name { font-size: 42px; font-weight: 600; fill: #1F2328; letter-spacing: -0.5px; }
+    .role { font-size: 18px; fill: #59636E; }
+    .grid { stroke: #D1D9E0; stroke-width: 1; }
+    .trace { fill: none; stroke: #0B7A6F; stroke-width: 2.5; stroke-linejoin: round; stroke-linecap: round;
+             stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw 1.8s cubic-bezier(.33,0,.2,1) .2s forwards; }
+    .area { fill: #0B7A6F; opacity: 0; animation: fade .8s ease-out 1.6s forwards; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    @keyframes fade { to { opacity: .08; } }
+    @media (prefers-reduced-motion: reduce) {
+      .trace { animation: none; stroke-dashoffset: 0; }
+      .area { animation: none; opacity: .08; }
+    }
+  </style>
+  <text class="name" x="0" y="92">Kevin Hernández</text>
+  <text class="role" x="2" y="128">Apps Android con root, audio y herramientas OSINT</text>
+  <g class="grid">
+    <path d="M500 30H880M500 65H880M500 100H880M500 135H880M500 170H880"/>
+    <path d="M500 30V170M576 30V170M652 30V170M728 30V170M804 30V170M880 30V170"/>
+  </g>
+  <path class="area" d="M500 122C524 122 534 72 560 72S600 128 622 128S664 96 690 100L704 100L714 82L728 112L742 62L756 96L770 86L784 108L798 52L812 92L826 76L840 100L854 70L868 90L880 84V170H500Z"/>
+  <path class="trace" pathLength="1" d="M500 122C524 122 534 72 560 72S600 128 622 128S664 96 690 100L704 100L714 82L728 112L742 62L756 96L770 86L784 108L798 52L812 92L826 76L840 100L854 70L868 90L880 84"/>
+</svg>

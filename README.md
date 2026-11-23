@@ -1,6 +1,9 @@
-<h1 align="center">Kevin Hernández</h1>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img alt="Kevin Hernández: apps Android con root, audio y herramientas OSINT" src="assets/header-light.svg" width="100%">
+</picture>
 
-<p align="center">Desarrollador Android, web (PHP) y Python, con enfoque en ciberseguridad y herramientas OSINT.</p>
+Hago herramientas que enseñan lo que pasa por dentro de un sistema: qué consume el teléfono, cómo suena el audio y qué hay detrás de un dominio. Casi todo nace de un problema mío y acaba publicado con código abierto y versiones automáticas.
 
 <p align="center">
   <a href="https://kevxngg.github.io/"><img alt="Mi página" src="https://img.shields.io/badge/kevxngg.github.io-005FB8?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
@@ -12,46 +15,57 @@
   <img alt="Discord: kevxngg" src="https://img.shields.io/badge/Discord-kevxngg-5865F2?style=for-the-badge&logo=discord&logoColor=white">
 </p>
 
----
+## Proyectos
 
-## 🔎 DomainInfo
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/kevxngg/monitor-root">Monitor</a></h3>
+      Administrador de tareas para Android con root o Shizuku, al estilo de Windows 11 o macOS: procesos, CPU, GPU, RAM, red, batería y monitor flotante con FPS.<br><br>
+      <sub>Kotlin y Jetpack Compose. <a href="https://kevxngg.github.io/monitor-root/">Sitio web</a> y <a href="https://github.com/kevxngg/monitor-root/releases/latest">última versión</a>.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/kevxngg/dolby-atmos-obsidian">Dolby Atmos</a></h3>
+      Desbloquea el Dolby Atmos integrado del sistema en Android con root: ecualizador en vivo, graves, sonido envolvente, realce de diálogos y AutoEQ.<br><br>
+      <sub>Kotlin y Jetpack Compose. <a href="https://github.com/kevxngg/dolby-atmos-obsidian/releases/latest">Última versión</a>.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/kevxngg/domaininfo">DomainInfo</a></h3>
+      Reconocimiento OSINT de dominios e IP desde la terminal: DNS, correo, subdominios, TLS, puertos y una nota final de la A a la F.<br><br>
+      <sub>Python y Bash, para Termux, Linux, macOS y Windows.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/kevxngg/spatial-audio-pro">Spatial Audio Pro</a></h3>
+      Audio global para Windows sobre Equalizer APO: ecualizador paramétrico de 10 bandas, espectro medido, sonido espacial binaural y perfiles.<br><br>
+      <sub>C#, WPF y .NET, con instalador MSI.</sub>
+    </td>
+  </tr>
+</table>
 
-Herramienta OSINT de inteligencia y reconocimiento de dominios e IPs desde la terminal, con módulos portables en Python y Bash para Termux, Kali/Linux, macOS y Windows.
+## Tecnologías
 
-<p>
-  <a href="https://github.com/kevxngg/domaininfo"><img alt="Código" src="https://img.shields.io/badge/Código-GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
-</p>
+| | |
+|:--|:--|
+| **Android** | Kotlin, Jetpack Compose, root con Magisk y KernelSU, Shizuku, ROM personalizadas |
+| **Escritorio** | C#, WPF, .NET, Equalizer APO |
+| **Web y scripts** | PHP, JavaScript, Python, Bash |
+| **Seguridad** | OSINT, DNS y TLS, reconocimiento de redes |
+| **Publicación** | GitHub Actions, releases firmadas y actualizaciones automáticas |
 
-## 📊 Monitor
+Más sobre mí en **[kevxngg.github.io](https://kevxngg.github.io/)**.
 
-Un administrador de tareas para Android con root con el estilo de Windows 11: procesos, CPU, GPU, RAM, disco, red, batería y temperaturas en tiempo real. Incluye monitor flotante con FPS, modo juego, alertas, widget, 11 idiomas y actualizaciones automáticas.
+<details>
+<summary><b>In English</b></summary>
+<br>
 
-<p>
-  <a href="https://github.com/kevxngg/monitor-root/releases/latest/download/MonitorRoot.apk"><img alt="Descargar APK" src="https://img.shields.io/badge/Descargar-APK-3DDC84?style=for-the-badge&logo=android&logoColor=white"></a>
-  <a href="https://kevxngg.github.io/monitor-root/"><img alt="Sitio web" src="https://img.shields.io/badge/Sitio-web-005FB8?style=for-the-badge&logo=githubpages&logoColor=white"></a>
-  <a href="https://github.com/kevxngg/monitor-root"><img alt="Código" src="https://img.shields.io/badge/Código-GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
-</p>
+I build tools that show what happens inside a system: what your phone is using, how your audio sounds and what sits behind a domain.
 
-## 🛠️ Con qué trabajo
+- **[Monitor](https://github.com/kevxngg/monitor-root)**: a Windows 11 / macOS-style task manager for Android with root or Shizuku.
+- **[Dolby Atmos](https://github.com/kevxngg/dolby-atmos-obsidian)**: unlocks the system's built-in Dolby Atmos on rooted Android, with live EQ and AutoEQ.
+- **[DomainInfo](https://github.com/kevxngg/domaininfo)**: OSINT reconnaissance for domains and IPs from the terminal.
+- **[Spatial Audio Pro](https://github.com/kevxngg/spatial-audio-pro)**: system-wide audio for Windows on top of Equalizer APO.
 
-<p>
-  <img alt="Android" src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white">
-  <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white">
-  <img alt="Jetpack Compose" src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white">
-  <img alt="Magisk" src="https://img.shields.io/badge/Magisk-00AF9C?style=flat-square&logo=magisk&logoColor=white">
-  <img alt="KernelSU" src="https://img.shields.io/badge/KernelSU-333333?style=flat-square&logo=linux&logoColor=white">
-  <img alt="Custom ROMs" src="https://img.shields.io/badge/Custom%20ROMs-555555?style=flat-square&logo=lineageos&logoColor=white">
-  <img alt="PHP" src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white">
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
-  <img alt="Bash" src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white">
-  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black">
-  <img alt="OSINT" src="https://img.shields.io/badge/OSINT-0B1220?style=flat-square&logo=hackthebox&logoColor=white">
-</p>
-
-🌐 Más sobre mí en **[kevxngg.github.io](https://kevxngg.github.io/)**
-
----
-
-### 🇬🇧 In English
-
-I'm Kevin Hernández, better known as "El Señor": a developer for Android, the web (PHP) and Python, focused on cybersecurity and OSINT tools. My projects include **[DomainInfo](https://github.com/kevxngg/domaininfo)**, an OSINT tool for domain and IP reconnaissance, and **[Monitor](https://kevxngg.github.io/monitor-root/)**, a Windows 11-style task manager for rooted Android. More at **[kevxngg.github.io](https://kevxngg.github.io/)**.
+More at **[kevxngg.github.io](https://kevxngg.github.io/)**.
+</details>
